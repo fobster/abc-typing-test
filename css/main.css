@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1.65em arial;
+}
+
+input {
+    font: 1.65em arial;
+}
+
+.correct {
+    background: green;
+}
+
+.wrong {
+    background: red;
+}
+
+.warning {
+    background: yellow;
+}
+
+#typing-container {
+    padding: 0 1em;
+}
+
+    #typing {
+        width: 16em;
+    }
+
+#output {
+    padding: 2em;
+    overflow: auto;
+    height: 400px;
+}
